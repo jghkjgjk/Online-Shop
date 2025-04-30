@@ -1,0 +1,374 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: #c59e7a;
+    justify-content: center;
+    position: fixed;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+color: rgba(255, 255, 255, 0.815);
+background-color: #bd8e61;
+transition: 0.4s;
+font-size: 20px;
+}
+section.Home{
+    height: 700px;
+    background: url("Image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 250px;
+    text-align:center;
+}
+section.Home a {
+    background-color: #b4885f;
+    color:   #ffffff;;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px; 
+}
+
+section.Home div{
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+section.Home .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+section.Home .column {
+    flex: 1 1 300px;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+section.Home .column h2 {
+    margin-bottom: 10px;
+}
+
+section.Home .column p {
+    line-height: 1.6;
+}
+section.about{
+height: 800px;
+background-color: #b4885f;
+padding-top: 100px;
+}
+section.about div{
+   color: white;
+   text-align: center;
+   margin: auto;
+   width: 70%;
+}
+section.about img{
+    height: 200px;
+}
+section.product{
+    background: url("Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    height: 600px
+    }
+    section.product .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    }
+    section.product .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width:200px;
+    height: 450px;
+    margin: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+    }
+    section.product .container .card img{
+    width:100%;
+    } 
+    section.product .container .card a{
+        display: inline-block;
+        background-color: #c59e7a;
+        color: white;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-top: auto;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        font-weight: bold;
+
+    }
+    section.product{
+    background-color: #e5b384;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    }
+    section.product .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    }
+    section.product .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width:200px;
+    height: 450px;
+    margin: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+    }
+    section.product .container .card img {
+        width:100%;
+    }
+    section.product .container .card a{
+        display: inline-block;
+        background-color: #c59e7a;
+        color: rgb(255, 255, 255);
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-top: auto;
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+        font-weight: bold;
+    }
+    section.product .container .card:hover {
+        animation: goyang 0.5s;
+        box-shadow: 0 0 5px rgb(0, 0, 0);
+    }
+    
+    @keyframes goyang {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(3deg);
+        }
+        50% {
+            transform: rotate(-3deg);
+        }
+        75% {
+            transform: rotate(1deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }    
+section.product{
+background-color: #e5b384;
+background-size: cover;
+background-repeat: no-repeat;
+height: 1200px;
+}
+section.product .container {
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+padding-top: 40px;
+}
+section.product .container .card{
+background-color: white;
+text-align: center;
+padding: 5px;
+width:200px;
+height: 450px;
+margin: 15px;
+border-radius: 8px;
+justify-content: space-between;
+}
+section.product .container .card img {
+    width:100%;
+}
+section.product .container .card a{
+    display: inline-block;
+    background-color: #c59e7a;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: auto;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+}
+section.product{
+    background-color: #e5b384;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    }
+    section.product .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    }
+    section.product .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width:200px;
+    height: 450px;
+    margin: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+    }
+    section.product .container .card img {
+        width:100%;
+    }
+    section.product .container .card a{
+        display: inline-block;
+        background-color: #c59e7a;
+        color: rgb(255, 255, 255);
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-top: auto;
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+        font-weight: bold;
+    }
+    section.product{
+        background-color: #e5b384;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1200px;
+        }
+        section.product .container {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        }
+        section.product .container .card{
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+        width:200px;
+        height: 450px;
+        margin: 15px;
+        border-radius: 8px;
+        justify-content: space-between;
+        }
+        section.product .container .card img {
+            width:100%;
+        }
+        section.product .container .card a{
+            display: inline-block;
+            background-color: #c59e7a;
+            color: rgb(255, 255, 255);
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: auto;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+            font-weight: bold;
+        }
+        section.product{
+            background-color: #e5b384;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 1200px;
+            }
+            section.product .container {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 40px;
+            }
+            section.product .container .card{
+            background-color: white;
+            text-align: center;
+            padding: 5px;
+            width:200px;
+            height: 450px;
+            margin: 15px;
+            border-radius: 8px;
+            justify-content: space-between;
+            }
+            section.product .container .card img {
+                width:100%;
+            }
+            section.product .container .card a{
+                display: inline-block;
+                background-color: #c59e7a;
+                color: rgb(255, 255, 255);
+                padding: 10px 25px;
+                text-decoration: none;
+                border-radius: 50px;
+                margin-top: auto;
+                box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+                font-weight: bold;
+            }
+section.contact{
+    background-color:#b4885f00;
+    color: #b4885f00;
+    }
+    section.contact .card{
+margin: auto;
+color: rgba(176, 139, 139, 0);
+text-align: center;
+padding-top: 100px;
+width: 400px;
+    }
+.footer{
+    height: 100px;
+    background-color: black;
+}
+footer .medsos{
+text-align :center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color : white;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+* {
+    box-sizing: border-box;
+}
+section.contact .card img{
+    width: 200px;
+}
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    color:rgb(254, 254, 254); 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
