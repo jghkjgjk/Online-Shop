@@ -9,21 +9,51 @@ header{
     justify-content: center;
     position: fixed;
 }
-nav{
-    padding: 10px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #c59e7a;
+    width: 100%;
 }
-nav a{
-    padding: 10px 25px;
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.pinewine {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+nav a {
+    display: inline-block;  
+    padding: 10px 20px;     
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: 0.4s;
+    font-size: 18px;
+    width: auto;            
+    height: 100%;          
+    text-align: center;     
 }
-nav a:hover{
-color: rgba(255, 255, 255, 0.815);
-background-color: #bd8e61;
-transition: 0.4s;
-font-size: 20px;
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.815);
+    background-color: #bd8e61;
+    font-size: 20px;
 }
-section.Home{
+.Home{
     height: 700px;
     background: url("Image1.jpg");
     background-size: cover;
@@ -184,7 +214,7 @@ section.product{
         100% {
             transform: rotate(0deg);
         }
-    }    
+    }
 section.product{
 background-color: #e5b384;
 background-size: cover;
@@ -340,25 +370,46 @@ text-align: center;
 padding-top: 100px;
 width: 400px;
     }
-.footer{
-    height: 100px;
-    background-color: black;
+   footer{
+    position: fixed;
+    background-color:#c59e7a;
+    height:34px;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
 }
 footer .medsos{
-text-align :center;
-    padding-top: 10px;
+    text-align: center;
+    padding-top: 5px;
 }
 footer .medsos a{
-    color : white;
+    color:rgb(255, 255, 255);
     font-size: 20px;
-    padding: 5px 20px;
+    padding: 5px 10px;
+}
+footer .medsos a:hover {
+    background-color:#facca1;
+    color: rgb(0, 0, 0);
 }
 * {
     box-sizing: border-box;
 }
 section.contact .card img{
-    width: 200px;
+    width: 500px;
 }
+section.contact{
+    height: 700px;
+    background-color: #b4885f;
+    padding-top: 100px;
+    }
+    section.contact div{
+        color: white;
+        text-align: center;
+        margin: auto;
+        width: 120%;
+     }
+    
 .column {
     float: left;
     width: 100%;
@@ -371,4 +422,12 @@ section.contact .card img{
     content: "";
     display: table;
     clear: both;
+}
+section.contact .card{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    width: 400px;
+    font-size: 20px;
 }
